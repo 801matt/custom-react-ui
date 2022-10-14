@@ -1,0 +1,158 @@
+{
+  "getLocationScanOrders": {
+    "zoneId": "bff4611f-a9f2-4b8b-abeb-99ea6b6a55f0",
+    "orders": [
+      {
+        "createdAt": "2022-03-24T21:13:09.314953+00:00",
+        "id": "62ade6e2-4921-41fe-a3a4-4832258a40dc",
+        "endTime": null,
+        "startTime": "2022-03-24T21:13:14.835962+00:00",
+        "status": "IN_PROGRESS",
+        "userTrackingToken": "Location Scan Order #1",
+        "zoneId": "bff4611f-a9f2-4b8b-abeb-99ea6b6a55f0",
+        "bins": [
+          {
+            "id": "693b88c3-b542-471f-8f0f-48c9c7abe457",
+            "error": null,
+            "record": null,
+            "status": "QUEUED"
+          },
+          {
+            "id": "693b88c3-b542-471f-8f0f-48c9c7abe888",
+            "error": null,
+            "record": null,
+            "status": "IN_PROGRESS"
+          },
+          {
+            "id": "693b88c3-b542-471f-8f0f-999999999999",
+            "error": {
+              "id": "693b88c3-b542-471f-8f0f-000000000000",
+              "type": "NO_VALID_PATH",
+              "timestamp": "2022-03-25T01:33:51+00:00",
+              "message": "No valid path to bin location."
+            },
+            "record": null,
+            "status": "ERROR"
+          },
+          {
+            "id": "2dc3be42-80e1-4271-8bf6-cf307db690fa",
+            "error": null,
+            "record": {
+              "aisle": "A",
+              "binName": "A-05-X-1",
+              "exceptions": [],
+              "images": [],
+              "inventory": [
+                {
+                  "lpn": "W-10001235",
+                  "recordId": "d2f4e3fa-3e9f-46d9-8ace-2cebbab3a8ce"
+                }
+              ],
+              "recordId": "41ba761f-54ac-4da3-adb9-91cff16c8a21",
+              "sharedLocationViewUrl": null,
+              "timestamp": "2022-03-25T01:33:51+00:00",
+              "userStatus": null
+            },
+            "status": "SUCCEEDED"
+          },
+          {
+            "id": "575ab0d5-08f7-4fd9-9156-1da19ad269f0",
+            "error": null,
+            "record": {
+              "aisle": "A",
+              "binName": "A-05-Z-1",
+              "exceptions": [],
+              "images": [],
+              "inventory": [],
+              "recordId": "13aa357f-c573-45d6-a8d0-918cc879636a",
+              "sharedLocationViewUrl": null,
+              "timestamp": "2022-03-25T01:34:01+00:00",
+              "userStatus": null
+            },
+            "status": "SUCCEEDED"
+          },
+          {
+            "id": "bfd4385b-159b-4e20-bbd2-523f7b301c9a",
+            "error": null,
+            "record": {
+              "aisle": "A",
+              "binName": "A-05-Z-2",
+              "exceptions": [],
+              "images": [],
+              "inventory": [],
+              "recordId": "63387de5-b264-4c13-a2e5-33b3164515d0",
+              "sharedLocationViewUrl": null,
+              "timestamp": "2022-03-25T01:34:01+00:00",
+              "userStatus": null
+            },
+            "status": "SUCCEEDED"
+          }
+        ]
+      },
+      {
+        "createdAt": "2022-03-24T20:11:09+00:00",
+        "id": "aabade6ff-4921-41fe-a3a4-4832258a40dc",
+        "endTime": "2022-03-25T01:34:01+00:00",
+        "startTime": "2022-03-24T2:11:14+00:00",
+        "status": "SUCCEEDED",
+        "userTrackingToken": "Location Scan Order #2",
+        "zoneId": "bff4611f-a9f2-4b8b-abeb-99ea6b6a55f0",
+        "bins": [
+          {
+            "id": "2dc3be42-80e1-4271-8bf6-cf307db690fa",
+            "error": null,
+            "record": {
+              "aisle": "A",
+              "binName": "A-05-X-1",
+              "exceptions": [],
+              "images": [],
+              "inventory": [
+                {
+                  "lpn": "W-10001235",
+                  "recordId": "d2f4e3fa-3e9f-46d9-8ace-2cebbab3a8ce"
+                }
+              ],
+              "recordId": "41ba761f-54ac-4da3-adb9-91cff16c8a21",
+              "sharedLocationViewUrl": null,
+              "timestamp": "2022-03-25T01:33:51+00:00",
+              "userStatus": null
+            },
+            "status": "SUCCEEDED"
+          },
+          {
+            "id": "575ab0d5-08f7-4fd9-9156-1da19ad269f0",
+            "error": null,
+            "record": {
+              "aisle": "A",
+              "binName": "A-05-Z-1",
+              "exceptions": [],
+              "images": [],
+              "inventory": [],
+              "recordId": "13aa357f-c573-45d6-a8d0-918cc879636a",
+              "sharedLocationViewUrl": null,
+              "timestamp": "2022-03-25T01:34:01+00:00",
+              "userStatus": null
+            },
+            "status": "SUCCEEDED"
+          },
+          {
+            "id": "bfd4385b-159b-4e20-bbd2-523f7b301c9a",
+            "error": null,
+            "record": {
+              "aisle": "A",
+              "binName": "A-05-Z-2",
+              "exceptions": [],
+              "images": [],
+              "inventory": [],
+              "recordId": "63387de5-b264-4c13-a2e5-33b3164515d0",
+              "sharedLocationViewUrl": null,
+              "timestamp": "2022-03-25T01:34:01+00:00",
+              "userStatus": null
+            },
+            "status": "SUCCEEDED"
+          }
+        ]
+      }
+    ]
+  }
+}
